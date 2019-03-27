@@ -141,6 +141,9 @@ PRODUCT_PACKAGES += \
     SettingsOverlaySea \
     SettingsProviderOverlaySea
 
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # Perf
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/configs/perf/,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/31/etc/)
@@ -160,7 +163,7 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
-	hardware/mediatek
+    hardware/mediatek
 
 # Symbols
 PRODUCT_PACKAGES += \
