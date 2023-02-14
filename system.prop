@@ -114,6 +114,8 @@ ro.hwui.render_ahead=20
 
 # SkialGL
 debug.hwui.renderer=opengl
+debug.renderengine.backend=skiagl
+
 
 # USB
 ro.sys.usb.mtp.whql.enable=0
