@@ -13,7 +13,7 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings.Secure;
 
-public class DT2WServiceFleur extends Service {
+public class DT2WServiceSea extends Service {
     private static final String TAG = "DT2WServiceSea";
     private Context mContext;
     private Handler mHandler;
