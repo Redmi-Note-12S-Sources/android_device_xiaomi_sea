@@ -25,3 +25,6 @@ lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# Audio primary hardware module, evergreen-user 12 SP1A.210812.016 V13.0.4.0.SGBMIXM release-keys
+vendor/lib/hw/audio.primary.mt6833.so:vendor_overlay/lib/hw/audio.primary.mt6781.so
