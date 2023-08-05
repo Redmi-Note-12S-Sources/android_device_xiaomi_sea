@@ -8,7 +8,7 @@ import android.os.UserHandle;
 
 public class OnBootCompleteReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
-        Intent sIntent = new Intent(context, DT2WServiceFleur.class);
+        Intent sIntent = new Intent(context, DT2WServiceSea.class);
         context.startServiceAsUser(sIntent, UserHandle.CURRENT);
     }
 }
