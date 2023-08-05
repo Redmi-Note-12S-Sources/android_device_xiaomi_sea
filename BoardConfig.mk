@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/sea
+VENDOR_PREBUILT := device/xiaomi/sea-vendor
 
 # Architecture
 TARGET_ARCH := arm64
@@ -95,7 +96,7 @@ BOARD_USES_METADATA_PARTITION := true
 # Prebuilts
 TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS := true
 BUILD_WITHOUT_VENDOR := true
-BOARD_PREBUILT_VENDORIMAGE := $(DEVICE_PATH)/prebuilts/vendor.img
+BOARD_PREBUILT_VENDORIMAGE := $(VENDOR_PREBUILT)/vendor.img
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6781
