@@ -141,7 +141,8 @@ PRODUCT_PACKAGES += \
     TetheringOverlaySea \
     WifiOverlaySea \
     SystemUIOverlaySea \
-    SettingsOverlaySea
+    SettingsOverlaySea \
+    SettingsProviderOverlaySea
 
 # Permissions
 PRODUCT_COPY_FILES += \
