@@ -10,7 +10,6 @@ framework/mediatek-ims-legacy.jar
 -framework/mediatek-telecom-common.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
-framework/mediatek-wfo-legacy.jar
 lib/libmtk_vt_wrapper.so
 lib/libmtkavenhancements.so
 lib64/libmtk_vt_service.so
