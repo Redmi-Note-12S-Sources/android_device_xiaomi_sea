@@ -10,10 +10,8 @@ framework/mediatek-ims-extension-plugin.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
 lib/libmtk_vt_wrapper.so
-lib/libmtkavenhancements.so
 lib64/libmtk_vt_service.so
 lib64/libmtk_vt_wrapper.so
-lib64/libmtkavenhancements.so
 lib64/libcomutils.so
 lib64/libsignal.so
 lib64/libsink.so
