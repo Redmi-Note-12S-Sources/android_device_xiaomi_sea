@@ -125,7 +125,7 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0_system \
     android.hidl.manager@1.0_system \
     libhidltransport \
-    libhwbinder 
+    libhwbinder
 
 # Kernel
 PRODUCT_COPY_FILES += \
@@ -156,7 +156,7 @@ PRODUCT_PACKAGES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
- 
+
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6781:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.mt6781
@@ -167,7 +167,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Symbols
 PRODUCT_PACKAGES += \
-    libshim_vtservice
+    libshim_sink
 
 # Telephony
 PRODUCT_BOOT_JARS += \
