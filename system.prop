@@ -101,7 +101,7 @@ vendor.rild.libpath=mtk-ril.so
 vendor.rild.libargs=-d /dev/ttyC0
 
 # Surfaceflinger
-debug.sf.set_idle_timer_ms=2000
+debug.sf.set_idle_timer_ms=3000
 debug.sf.enable_hwc_vds=0
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=30000000
