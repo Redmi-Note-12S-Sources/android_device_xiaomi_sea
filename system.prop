@@ -77,6 +77,7 @@ ro.config.sdha_apps_bg_max=64
 ro.config.sdha_apps_bg_min=8
 
 # Netflix
+ro.netflix.bsp_rev=MTK6781-34066-1
 ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
 ro.netflix.signup=1
 
