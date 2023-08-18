@@ -52,15 +52,6 @@ sys.ipo.disable=1
 sys.ipo.pwrdncap=2
 ro.iorapd.enable=false
 
-# Media
-media.c2.dmabuf.padding=3072
-ro.vendor.jpeg_decode_sw_opt=1
-ro.vendor.mtk_video_hevc_enc_support=1
-vendor.mtk.vdec.waitkeyframeforplay=9
-debug.stagefright.c2inputsurface=-1
-media.stagefright.thumbnail.prefer_hw_codecs=true
-vendor.mtk_thumbnail_optimization=true
-
 # Memory Management
 ro.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=5
