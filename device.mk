@@ -60,10 +60,10 @@ PRODUCT_COPY_FILES += \
 
 # Bootctrl
 PRODUCT_PACKAGES += \
-    bootctrl.default \
-    android.hardware.boot@1.2-impl \
-    android.hardware.boot@1.2.recovery \
-    android.hardware.boot@1.2-service
+    android.hardware.boot@1.2-service \
+    android.hardware.boot@1.2-mtkimpl:64 \
+    android.hardware.boot@1.2-mtkimpl.recovery
+
 
 # Bluetooth Audio (System-side HAL, sysbta)
 PRODUCT_PACKAGES += \
@@ -163,7 +163,8 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH)
+    $(DEVICE_PATH) \
+	hardware/mediatek
 
 # Symbols
 PRODUCT_PACKAGES += \
