@@ -109,12 +109,6 @@ ro.surface_flinger.set_idle_timer_ms=0
 ro.surface_flinger.set_touch_timer_ms=3000
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.uclamp.min=130
-ro.vendor.composer_version=2.1
-ro.vendor.mml.mtk_mml_support=0
-ro.vendor.mtk_aal_support=1
-ro.vendor.smvr.p2batch.fhd=4
-ro.vendor.smvr.p2batch.hd=8
-ro.vendor.smvr.p2batch.vga=16
 debug.sf.enable_egl_image_tracker=1
 ro.hwui.render_ahead=20
 
