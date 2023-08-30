@@ -19,7 +19,7 @@ static const variant_info_t sea_info = {
     .brand = "Redmi",
     .device = "sea",
     .marketname = "Redmi Note 12S",
-    .model = "sea",
+    .model = "23030RAC7Y",
     .mod_device = "sea_global",
     .build_fingerprint = FINGERPRINT_SEA,
 };
@@ -30,7 +30,7 @@ static const variant_info_t ocean_info = {
     .brand = "Redmi",
     .device = "ocean",
     .marketname = "Redmi Note 12S",
-    .model = "ocean",
+    .model = "2303CRA44A",
     .mod_device = "ocean_global",
     .build_fingerprint = FINGERPRINT_OCEAN,
 };
@@ -41,7 +41,7 @@ static const variant_info_t ocean_la_info = {
     .brand = "Redmi",
     .device = "ocean",
     .marketname = "Redmi Note 12S",
-    .model = "ocean",
+    .model = "2303ERA42L",
     .mod_device = "ocean_global",
     .build_fingerprint = FINGERPRINT_OCEAN,
 };
@@ -49,6 +49,7 @@ static const variant_info_t ocean_la_info = {
 static const std::vector<variant_info_t> variants = {
     sea_info,
     ocean_info,
+    ocean_la_info,
 };
 
 void vendor_load_properties() {
