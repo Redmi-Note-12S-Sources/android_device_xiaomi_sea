@@ -64,9 +64,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-mtkimpl:64 \
     android.hardware.boot@1.2-mtkimpl.recovery
 
-# BesLoudness
-PRODUCT_PACKAGES += \
-    BesLoudness
 
 # Bluetooth Audio (System-side HAL, sysbta)
 PRODUCT_PACKAGES += \
@@ -128,7 +125,7 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0_system \
     android.hidl.manager@1.0_system \
     libhidltransport \
-    libhwbinder
+    libhwbinder 
 
 # Kernel
 PRODUCT_COPY_FILES += \
