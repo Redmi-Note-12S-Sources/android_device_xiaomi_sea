@@ -37,7 +37,7 @@ static const variant_info_t ocean_info = {
 
 static const variant_info_t ocean_la_info = {
     .hwc_value = "",
-    .sku_value = "kslr",
+    .sku_value = "ksrl",
     .brand = "Redmi",
     .device = "ocean",
     .marketname = "Redmi Note 12S",
