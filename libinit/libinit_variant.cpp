@@ -13,7 +13,7 @@
 using android::base::GetProperty;
 
 #define HWC_PROP "ro.boot.hwc"
-#define SKU_PROP "ro.boot.product.vendor.sku"
+#define SKU_PROP "ro.boot.product.hardware.sku"
 
 void search_variant(const std::vector<variant_info_t> variants) {
     std::string hwc_value = GetProperty(HWC_PROP, "");
