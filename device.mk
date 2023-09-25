@@ -90,16 +90,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl
 
-# ImsInit hack
-PRODUCT_PACKAGES += \
-    ImsInit
-
 # ImsService
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
-    RcsService \
-    ImsServiceBase
+    RcsService
 
 # Init
 PRODUCT_PACKAGES += \
