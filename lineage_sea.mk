@@ -17,7 +17,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := sea
 PRODUCT_NAME := lineage_sea
-PRODUCT_MODEL := Redmi Note 12S 4G
+PRODUCT_MODEL := Redmi Note 12S
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
