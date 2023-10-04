@@ -5,8 +5,9 @@ Redmi Note 12S (codenamed _"sea"_) is a mid-range smartphone from Xiaomi.
 It was released in March 2023.
 
 ## Known issues
-- TBA
-
+- Offline charging (reboots phone into fastboot)
+- NFC crashes POS but works
+- VoLTE
 
 ## Device specifications
 
