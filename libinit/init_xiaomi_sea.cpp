@@ -58,4 +58,5 @@ void vendor_load_properties() {
 
     // SafetyNet workaround
     property_override("ro.boot.verifiedbootstate", "green");
+    property_override("ro.product.first_api_level", "32");
 }
