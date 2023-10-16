@@ -25,7 +25,9 @@
     <!-- Enable doze mode -->
     <bool name="doze_display_state_supported">false</bool>
 
-    <dimen name="rounded_corner_content_padding">52.0px</dimen>
+    <!-- rounded corner content padding -->
+    <dimen name="rounded_corner_content_padding">50.0px</dimen>
+
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">955px</dimen>
     <dimen name="physical_fingerprint_sensor_center_screen_location_x">1080px</dimen>
 
