@@ -17,6 +17,9 @@ allow init system_file:file { execute_no_trans };
 # Allow init to set governor and frequency
 allow init sysfs_devfreq_file:file rw_file_perms;
 
+# Allow init to write sysfs_led
+allow init sysfs_led:file { write };
+
 # Allow mtk_hal_audio to set props
 allow init vendor_default_prop:property_service {set};
 
