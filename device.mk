@@ -58,6 +58,10 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/apn/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(DEVICE_PATH)/configs/audio/,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/31/etc)
+
 # Bootctrl
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-service \
