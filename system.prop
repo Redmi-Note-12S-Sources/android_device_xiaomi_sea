@@ -35,6 +35,9 @@ vendor.camera.aux.packagelist=org.lineageos.aperture,org.codeaurora.snapcam,com.
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Display
+persist.sys.sf.native_mode=2
+
 # Fingerprint
 ro.hardware.fp.sideCap=true
 
