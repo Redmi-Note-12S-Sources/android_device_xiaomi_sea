@@ -18,6 +18,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/sea/sea-vendor.mk)
 
+# Include gapps
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
 # A/B
 AB_OTA_UPDATER := true
 
