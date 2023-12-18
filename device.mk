@@ -21,6 +21,9 @@ $(call inherit-product, vendor/xiaomi/sea/sea-vendor.mk)
 # Include gapps
 $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
+# Include MIUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera-sea/device.mk)
+
 # A/B
 AB_OTA_UPDATER := true
 
