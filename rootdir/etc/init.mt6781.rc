@@ -69,13 +69,6 @@ on property:persist.sys.sea.dt2w=1
     # to hide Magisk & co.
     chmod 440 /proc/net/unix
 
-service charger /system/bin/charger
-    class charger
-    critical
-    group system graphics
-    capabilities SYS_BOOT
-    seclabel u:r:charger:s0
-
 on charger
     # Turn backlight on and switch to backlight trigger
     write /sys/class/leds/lcd-backlight/brightness "1000"
