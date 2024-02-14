@@ -37,9 +37,6 @@ ro.miui.notch=1
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
-# Display
-persist.sys.sf.native_mode=2
-
 # Fingerprint
 ro.hardware.fp.sideCap=true
 
