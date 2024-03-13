@@ -10,8 +10,8 @@
 
 #include "vendor_init.h"
 
-#define FINGERPRINT_SEA "Redmi/sea_global/sea:13/SP1A.210812.016/V14.0.8.0.THZMIXM:user/release-keys"
-#define FINGERPRINT_OCEAN "Redmi/ocean_global/ocean:13/SP1A.210812.016/V14.0.8.0.THZMIXM:user/release-keys"
+#define FINGERPRINT_SEA "Redmi/sea_global/sea:14/SP1A.210812.016/V816.0.5.0.UHZMIXM:user/release-keys"
+#define FINGERPRINT_OCEAN "Redmi/ocean_global/ocean:14/SP1A.210812.016/V816.0.5.0.UHZMIXM:user/release-keys"
 
 static const variant_info_t sea_info = {
     .hwc_value = "",
