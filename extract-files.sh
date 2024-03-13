@@ -68,7 +68,7 @@ function blob_fixup {
     vendor/lib64/libmtkcam_featurepolicy.so)
         sed -i "s|\xE8\x87\x40\xB9|\x28\x02\x80\x52|g" "${2}"
         ;;
-    lib64/libsink.so)
+    system_ext/lib64/libsink.so)
         "${PATCHELF}" --add-needed "libshim_sink.so" "${2}"
         ;;
     esac
